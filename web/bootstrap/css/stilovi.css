@@ -1,0 +1,116 @@
+body
+{
+    font-family: 'Droid Serif', droid-sans;
+}
+
+.btn-default
+{
+    width: 200px;
+}
+
+.navbar .navbar-nav
+{
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.center-pills
+{
+    display: flex;
+    justify-content: center;
+}
+
+.padding-top
+{
+    padding-top: 20px;
+}
+
+.padding-top-100
+{
+    padding-top: 100px;
+}
+
+.padding-top-200
+{
+    padding-top: 200px;
+}
+
+.padding-bottom
+{
+    padding-bottom: 10px;
+}
+
+.padding-bottom-20
+{
+    padding-bottom: 20px;
+}
+
+.padding-bottom-60
+{
+    padding-bottom: 100px;
+}
+
+.table-borderless th, .table-borderless td
+{
+    border: none !important;
+}
+
+.btnPregledProizvoda, .btnKupi, .btnPrijavaKupac, .btnPrijavaAdmin, .btnKategorije, .btnHome, .btnPrijava, .btnRegistracija
+{
+    background-color:  #67b168 !important;
+    color: white !important;
+}
+
+.btnPregledProizvoda:hover, .btnKupi:hover, .btnAzurirajKolicinu:hover, .btnDodajuKosaricu:hover, .btnPregledProizvoda:hover,
+.btnPrijava:hover, .btnRegistracija:hover, .btnPrijavaKupac:hover, .btnPrijavaAdmin:hover, .btnKategorije:hover, .btnHome:hover
+{
+    color: #f0ad4e !important;
+}
+
+.navigacija, .headingProizvodi, .btnDodajuKosaricu, .sveKategorije, .headingRegistracija, .headingKosarica, .btnAzurirajKolicinu,
+.headingKupnja, .headingNacinPlacanja, .headingKupac, .headingAdmin, .btnKategorije,.headingPretraga
+{
+    background-color:  #67b168 !important;
+    border-radius: 10px;
+}
+
+.odabranaKategorija
+{
+    background-color: #f0ad4e !important;
+    border-radius: 10px;
+}
+
+.navigacija li a, .headingProizvodi, .btnDodajuKosaricu, .sveKategorije, .headingRegistracija, .headingKosarica, .btnAzurirajKolicinu,
+.headingKupnja, .headingNacinPlacanja, .headingKupac, .headingAdmin, .headingPretraga
+{
+    color: white !important;
+}
+
+.navigacija li a:hover, .lblOdjava:hover
+{
+    color: #f0ad4e !important;
+}
+
+.tablicaRegistracija
+{
+    text-align: left !important;
+    width: 50%;
+    margin: 0px auto !important;
+    float: none;
+}
+
+thead tr td
+{
+    font-weight: bolder;
+}
+
+.lblPrijavljenKupac, .lblOdjava
+{
+    color: white;
+}
+
+.lblProvjeraLozinke
+{
+    display: none;
+}
